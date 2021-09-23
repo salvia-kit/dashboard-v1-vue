@@ -19,16 +19,11 @@
   </dashboard-provider>
 </template>
 
-<script>
+<script setup>
 import Overlay from './provider/Overlay.vue';
 import DashboardProvider from './provider/Provider.vue';
 import TopNavigation from './topnavigation/Index.vue';
 import SideNavigation from './sidenavigation/Index.vue';
-
-export default {
-  name: 'DashboardLayout',
-  components: { DashboardProvider, Overlay, SideNavigation, TopNavigation },
-};
 </script>
 
 <style scoped>

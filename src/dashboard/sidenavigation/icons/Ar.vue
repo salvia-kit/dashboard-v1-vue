@@ -6,8 +6,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'ArIcon',
-};
-</script>
+<script setup></script>

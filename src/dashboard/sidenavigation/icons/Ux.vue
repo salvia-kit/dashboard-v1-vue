@@ -9,8 +9,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'UxIcon',
-};
-</script>
+<script setup></script>

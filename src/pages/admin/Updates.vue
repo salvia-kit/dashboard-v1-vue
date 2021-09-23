@@ -2,13 +2,6 @@
   <Content title="Updates" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'UpdatesPage',
-  components: {
-    Content,
-  },
-};
 </script>

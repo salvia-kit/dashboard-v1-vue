@@ -12,8 +12,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'GraphicDesignIcon',
-};
-</script>
+<script setup></script>

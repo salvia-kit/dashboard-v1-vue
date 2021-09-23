@@ -11,14 +11,13 @@
   </ul>
 </template>
 
-<script>
-export default {
-  name: 'SidenavItemsSection',
-  props: {
-    name: {
-      type: String,
-      default: '',
-    },
+<script setup>
+import { defineProps } from 'vue';
+
+defineProps({
+  name: {
+    type: String,
+    default: '',
   },
-};
+});
 </script>

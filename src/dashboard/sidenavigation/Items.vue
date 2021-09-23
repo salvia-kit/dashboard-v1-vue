@@ -38,7 +38,7 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import SidenavItem from './Item.vue';
 import SidenavItemsSection from './Section.vue';
 
@@ -52,21 +52,4 @@ import PhotographyIcon from './icons/Photography.vue';
 import IllustrationIcon from './icons/Illustration.vue';
 import GraphicDesignIcon from './icons/GraphicDesign.vue';
 import DocumentationIcon from './icons/Documentation.vue';
-
-export default {
-  name: 'SidenavItems',
-  components: {
-    ArIcon,
-    UxIcon,
-    VideosIcon,
-    UpdatesIcon,
-    AllAppsIcon,
-    SidenavItem,
-    PhotographyIcon,
-    IllustrationIcon,
-    DocumentationIcon,
-    GraphicDesignIcon,
-    SidenavItemsSection,
-  },
-};
 </script>

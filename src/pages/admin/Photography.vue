@@ -2,13 +2,6 @@
   <Content title="Photography" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'PhotographyPage',
-  components: {
-    Content,
-  },
-};
 </script>

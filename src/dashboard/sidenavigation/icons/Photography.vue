@@ -21,8 +21,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'PhotographyIcon',
-};
-</script>
+<script setup></script>

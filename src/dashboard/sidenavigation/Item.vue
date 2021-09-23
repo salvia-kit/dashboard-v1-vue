@@ -17,25 +17,20 @@
   </router-link>
 </template>
 
-<script>
+<script setup>
+import { defineProps } from 'vue';
 import { useRoute } from 'vue-router';
 
-export default {
-  name: 'SidenavItem',
-  props: {
-    to: {
-      type: String,
-      default: '',
-    },
-    title: {
-      type: String,
-      default: '',
-    },
+defineProps({
+  to: {
+    type: String,
+    default: '',
   },
-  setup() {
-    const route = useRoute();
+  title: {
+    type: String,
+    default: '',
+  },
+});
 
-    return { route };
-  },
-};
+const route = useRoute();
 </script>

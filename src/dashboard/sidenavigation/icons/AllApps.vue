@@ -21,10 +21,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'AllAppsIcon',
-};
-</script>
-
-<style scoped></style>
+<script setup></script>

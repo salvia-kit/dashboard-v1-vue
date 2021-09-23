@@ -17,11 +17,8 @@
   </pre>
 </template>
 
-<script>
-export default {
-  name: 'Snippet',
-  setup() {
-    const snippets = `<sidenav-items-section name="Apps">
+<script setup>
+const snippets = `<sidenav-items-section name="Apps">
       <sidenav-item title="All Apps" to="/">
         <all-apps-icon />
       </sidenav-item>
@@ -29,8 +26,4 @@ export default {
         <updates-icon />
       </sidenav-item>
     </sidenav-items-section>`;
-
-    return { snippets };
-  },
-};
 </script>

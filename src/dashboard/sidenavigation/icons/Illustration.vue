@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'IllustrationIcon',
-};
-</script>
+<script setup></script>

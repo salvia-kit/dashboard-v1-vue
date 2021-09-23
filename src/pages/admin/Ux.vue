@@ -2,13 +2,6 @@
   <Content title="UI/UX" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'UxPage',
-  components: {
-    Content,
-  },
-};
 </script>

@@ -2,13 +2,6 @@
   <Content title="3D/AR" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'ArPage',
-  components: {
-    Content,
-  },
-};
 </script>

@@ -6,8 +6,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'UpdatesIcon',
-};
-</script>
+<script setup></script>
